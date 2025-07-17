@@ -1,0 +1,23 @@
+body{
+  background:url(sea.jpg) ;
+ background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  margin: 0; 
+}
+#clock-countaner{
+  display: flex;
+  justify-content: center;
+  align-items: center  ;
+  height: 100vh;
+  border : 2px solid rgb(174, 229, 233);
+}
+#clock {
+  font-family:  cursive ;
+  font-size: 8rem;
+  font-weight: bold;
+  text-align: center;
+  color : black;
+  backdrop-filter : blur(5px);
+  width: 100%;
+}
